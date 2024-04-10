@@ -1,8 +1,6 @@
 # Technical Assessment JavaScript
 
-General
-
----
+## General
 
 Write a function as described below and test scenarios to test its validity.
 

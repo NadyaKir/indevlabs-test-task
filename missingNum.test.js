@@ -12,9 +12,12 @@ describe("missingNum function", () => {
 
   it("should handle arrays with negative numbers", () => {
     expect(missingNum([-3, -2, 0, 1])).toBe(-1);
+    expect(missingNum([-5, -3, -2, -1])).toBe(-4);
   });
 
   it("should handle arrays with duplicates", () => {
     expect(missingNum([1, 2, 2, 3])).toBe(4);
+    expect(missingNum([1, 2, 3, 3])).toBe(4);
+    expect(missingNum([1, 2, 1, 3])).toBe(4);
   });
 });
